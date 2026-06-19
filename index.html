@@ -135,62 +135,134 @@
       </div>
     </section>
 
-    <section class="section" id="projects">
-      <div class="section-heading reveal">
-        <p>SELECTED WORK</p>
-        <h2>Featured <span>Projects</span></h2>
+   <section class="section" id="projects">
+  <div class="section-heading reveal">
+    <p>SELECTED WORK</p>
+    <h2>Featured <span>Projects</span></h2>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- Portfolio Project -->
+    <article class="project-card reveal">
+      <div class="project-number">01</div>
+
+      <div class="project-content">
+        <p class="project-type">Frontend Project</p>
+
+        <h3>Modern Portfolio Website</h3>
+
+        <p>
+          A responsive personal portfolio with smooth animations, dark mode,
+          green visual effects and a clean visual hierarchy.
+        </p>
+
+        <div class="project-tech">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://ayazathar.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo ↗
+          </a>
+
+          <a
+            href="https://github.com/ayaz-athar/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source Code ↗
+          </a>
+        </div>
       </div>
+    </article>
 
-      <div class="projects-grid">
-        <article class="project-card reveal">
-          <div class="project-number">01</div>
-          <div class="project-content">
-            <p class="project-type">Frontend Project</p>
-            <h3>Modern Portfolio Website</h3>
-            <p>A responsive personal portfolio with smooth animations, dark mode and clean visual hierarchy.</p>
-            <div class="project-tech">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
-            <div class="project-links">
-              <a href="#" aria-label="View live project">Live Demo ↗</a>
-              <a href="#" aria-label="View source code">Source Code ↗</a>
-            </div>
-          </div>
-        </article>
+    <!-- Slither Game Project -->
+    <article class="project-card reveal">
+      <div class="project-number">02</div>
 
-        <article class="project-card reveal">
-          <div class="project-number">02</div>
-          <div class="project-content">
-            <p class="project-type">React Project</p>
-            <h3>React Calculator</h3>
-            <p>A component-based calculator with clean logic, responsive controls and polished interactions.</p>
-            <div class="project-tech">
-              <span>React</span><span>CSS</span><span>Hooks</span>
-            </div>
-            <div class="project-links">
-              <a href="#">Live Demo ↗</a>
-              <a href="#">Source Code ↗</a>
-            </div>
-          </div>
-        </article>
+      <div class="project-content">
+        <p class="project-type">JavaScript Game</p>
 
-        <article class="project-card reveal">
-          <div class="project-number">03</div>
-          <div class="project-content">
-            <p class="project-type">JavaScript Project</p>
-            <h3>Interactive Music Player</h3>
-            <p>A sleek music interface with playback controls, progress tracking and responsive styling.</p>
-            <div class="project-tech">
-              <span>JavaScript</span><span>HTML</span><span>CSS</span>
-            </div>
-            <div class="project-links">
-              <a href="#">Live Demo ↗</a>
-              <a href="#">Source Code ↗</a>
-            </div>
-          </div>
-        </article>
+        <h3>Slither Game</h3>
+
+        <p>
+          An interactive Slither.io-inspired browser game where the snake
+          follows the mouse, consumes glowing food particles and grows longer
+          as the player's score increases.
+        </p>
+
+        <div class="project-tech">
+          <span>HTML5 Canvas</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://slitherol.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Play Game ↗
+          </a>
+
+          <a
+            href="hhttps://github.com/ayaz-athar/slither.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source Code ↗
+          </a>
+        </div>
       </div>
-    </section>
+    </article>
+
+      <!-- Flappy Boom Project -->
+<article class="project-card reveal">
+  <div class="project-number">03</div>
+
+  <div class="project-content">
+    <p class="project-type">JavaScript Game</p>
+
+    <h3>Flappy Bird</h3>
+
+    <p>
+      A browser-based Flappy Bird-style game with smooth controls,
+      collision detection, score tracking, sound effects and restart functionality.
+    </p>
+
+    <div class="project-tech">
+      <span>HTML5 Canvas</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="project-links">
+      <a
+        href="https://flappyboom.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Play Game ↗
+      </a>
+
+      <a
+        href="https://github.com/ayaz-athar/flappy-bird-game"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Source Code ↗
+      </a>
+    </div>
+</article>
+</section>
 
     <section class="section about-section" id="about">
       <div class="about-card reveal">
@@ -209,7 +281,7 @@
             My long-term interests include frontend engineering, Cybersecurity
             and Artificial Intelligence.
           </p>
-         <a
+          <a
   href="Ayaz-Athar-CV.pdf"
   download="Ayaz-Athar-CV.pdf"
   class="btn btn-primary"
@@ -237,8 +309,8 @@
 
         <form id="contactForm">
           <div class="form-row">
-            <input type="text" id="name" placeholder="Your name" required />
-            <input type="email" id="email" placeholder="Your email" required />
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
           </div>
           <input type="text" id="subject" placeholder="Subject" required />
           <textarea id="message" rows="6" placeholder="Your message" required></textarea>
